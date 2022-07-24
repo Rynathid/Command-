@@ -1,5 +1,5 @@
 import os, sys
 try:
-    __import__("RYnna").login()
+    __import__("kille").login()
 except Exception as e:
     exit(str(e))
